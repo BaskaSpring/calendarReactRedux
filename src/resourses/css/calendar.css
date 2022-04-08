@@ -1,0 +1,27 @@
+.MyTable h3{
+    text-align: center;
+    color: green;
+}
+
+.fixed{
+
+    position: fixed;
+    overflow-y: auto;
+    display: block;
+
+}
+
+.MyEvents{
+    position: relative;
+}
+
+.App {
+    display: grid;
+    gap: inherit;
+    grid-template-columns: 3fr 2fr
+}
+.formControl {
+    border-width: .2rem .2rem 0;
+    border-radius: 8px 8px 0 0;
+    color: violet;
+}
